@@ -1,11 +1,14 @@
-// src/pages/index.js
 import React from 'react';
+import { CalculatorProvider } from '../context/CalculatorContext';
+import Calculator from '../components/Calculator';
 
 const HomePage = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-gray-500">Hello, World!</h1>
-    </div>
+    <CalculatorProvider>
+      <div className="flex items-center justify-center h-screen bg-gray-100">
+        <Calculator />
+      </div>
+    </CalculatorProvider>
   );
 };
 
