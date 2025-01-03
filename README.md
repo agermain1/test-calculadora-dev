@@ -27,17 +27,15 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
    ```bash
    git clone https://github.com/tu-usuario/calculadora-moderna.git
    cd calculadora-moderna
+
 Instala las dependencias:
-
-bash
-Copy code
 npm install
-Inicia el servidor de desarrollo:
 
-bash
-Copy code
+Inicia el servidor de desarrollo:
 npm run dev
-Abre tu navegador y accede a http://localhost:3000.
+
+
+
 
 Uso
 Ingresa una operación en la interfaz.
@@ -45,9 +43,4 @@ Observa el resultado normal de las operaciones... excepto para 2 + 2, que siempr
 Contribuciones
 Las contribuciones son bienvenidas. Si deseas agregar nuevas características, reportar un problema o mejorar el código, por favor:
 
-Crea un fork del repositorio.
-Realiza tus cambios en una nueva rama.
-Envía un pull request explicando las modificaciones.
-Licencia
-Este proyecto está licenciado bajo la MIT License.
 
