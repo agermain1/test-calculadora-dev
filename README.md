@@ -25,7 +25,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/calculadora-moderna.git
+   git clone https://https://github.com/agermain1/test-calculadora-dev.git
    cd calculadora-moderna
 
 Instala las dependencias:
